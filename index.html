@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a22">
+  <title>Seguridad vial | Detector</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, "Segoe UI", sans-serif;
+      background: #101a22;
+      color: #eef4f7;
+      font-synthesis: none;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at 75% -20%, #245044 0, transparent 38rem),
+        #101a22;
+    }
+
+    header {
+      align-items: center;
+      border-bottom: 1px solid #293741;
+      display: flex;
+      justify-content: space-between;
+      padding: 22px clamp(20px, 5vw, 72px);
+    }
+
+    .brand { align-items: center; display: flex; gap: 13px; }
+    .brand-mark {
+      align-items: center;
+      background: #d6f36a;
+      border-radius: 12px;
+      color: #142018;
+      display: flex;
+      font-size: 19px;
+      font-weight: 800;
+      height: 42px;
+      justify-content: center;
+      width: 42px;
+    }
+
+    .brand-title { font-size: 15px; font-weight: 700; }
+    .brand-subtitle, .eyebrow { color: #9cabb4; font-size: 12px; }
+    .connection {
+      align-items: center;
+      color: #b7c4c9;
+      display: flex;
+      font-size: 13px;
+      gap: 9px;
+    }
+
+    .dot { background: #71818b; border-radius: 50%; height: 8px; width: 8px; }
+    .dot.online { background: #a9e85b; box-shadow: 0 0 12px #a9e85b80; }
+    main { margin: auto; max-width: 1260px; padding: 48px 24px 64px; }
+    .intro { margin-bottom: 28px; }
+    .eyebrow { color: #c3e66b; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { font-size: clamp(29px, 4vw, 40px); letter-spacing: -.04em; margin: 9px 0; }
+    .intro p { color: #9cabb4; margin: 0; }
+    .layout { display: grid; gap: 20px; grid-template-columns: minmax(0, 1.65fr) minmax(290px, .85fr); }
+    .panel {
+      background: #18252e;
+      border: 1px solid #293943;
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .panel-heading {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 18px 20px;
+    }
+
+    h2 { font-size: 15px; margin: 0; }
+    .source { color: #a9b8bf; font-size: 12px; }
+    .live {
+      align-items: center;
+      background: #352922;
+      border: 1px solid #594333;
+      border-radius: 20px;
+      color: #ffc489;
+      display: flex;
+      font-size: 10px;
+      font-weight: 700;
+      gap: 7px;
+      letter-spacing: .1em;
+      padding: 7px 10px;
+    }
+
+    .live::before { background: currentColor; border-radius: 50%; content: ""; height: 6px; width: 6px; }
+    .video-frame { aspect-ratio: 16 / 10; background: #0b1115; display: grid; place-items: center; }
+    .video-frame img { height: 100%; object-fit: contain; width: 100%; }
+    .video-placeholder { color: #9cabb4; font-size: 13px; padding: 24px; text-align: center; }
+    .video-footer { color: #9cabb4; font-size: 12px; padding: 13px 20px; }
+    .side { display: grid; gap: 20px; align-content: start; }
+    .status-card { padding: 21px; }
+    .status-card h2 { margin-bottom: 16px; }
+    .status-banner {
+      background: #25342f;
+      border: 1px solid #354c3c;
+      border-radius: 12px;
+      color: #d5efad;
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 18px;
+      padding: 13px;
+    }
+
+    .status-banner.alert { background: #382d24; border-color: #5b4431; color: #ffd3a2; }
+    .checklist { display: grid; gap: 10px; }
+    .check-row {
+      align-items: center;
+      background: #202e37;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      padding: 12px;
+    }
+
+    .item-name { font-size: 13px; font-weight: 600; }
+    .item-state { color: #9cabb4; font-size: 11px; }
+    .check-row.present .item-state { color: #bce979; }
+    .check-row.missing .item-state { color: #ffbe7a; }
+    .duration { color: #9cabb4; font-size: 12px; margin: 17px 0 0; }
+    .duration strong { color: #eef4f7; font-weight: 600; }
+    .report-card { padding: 21px; }
+    .report-card p { color: #9cabb4; font-size: 12px; line-height: 1.6; margin: 9px 0 17px; }
+    button {
+      background: #d6f36a;
+      border: 0;
+      border-radius: 10px;
+      color: #142018;
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 750;
+      padding: 12px 14px;
+      width: 100%;
+    }
+
+    button:hover { background: #e2ff82; }
+    button:disabled { cursor: not-allowed; opacity: .48; }
+    .message { color: #bce979; font-size: 12px; min-height: 18px; margin: 12px 0 0; }
+    @media (max-width: 800px) {
+      main { padding-top: 32px; }
+      .layout { grid-template-columns: 1fr; }
+      .side { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 560px) {
+      header { padding: 16px 18px; }
+      .connection { font-size: 0; }
+      main { padding: 28px 16px 40px; }
+      .side { grid-template-columns: 1fr; }
+      .panel-heading { padding: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">SV</div>
+      <div>
+        <div class="brand-title">Seguridad vial</div>
+        <div class="brand-subtitle">Sistema de detección</div>
+      </div>
+    </div>
+    <div class="connection"><span id="connectionDot" class="dot"></span><span id="connectionText">Conectando al detector...</span></div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="eyebrow">Monitoreo en vivo</div>
+      <h1>Panel de seguridad vial</h1>
+      <p>Verifica los elementos de protección y señalización detectados por la cámara.</p>
+    </section>
+
+    <div class="layout">
+      <section class="panel" aria-labelledby="cameraTitle">
+        <div class="panel-heading">
+          <div>
+            <h2 id="cameraTitle">Vista de cámara</h2>
+            <div class="source" id="sourceText">Esperando conexión...</div>
+          </div>
+          <div class="live">EN VIVO</div>
+        </div>
+        <div class="video-frame">
+          <img id="video" src="/video" alt="Video en vivo con detecciones de seguridad vial">
+          <div id="videoPlaceholder" class="video-placeholder" hidden>Esperando señal de video...</div>
+        </div>
+        <div class="video-footer">Las detecciones aparecen sobre la imagen cuando son confirmadas.</div>
+      </section>
+
+      <div class="side">
+        <section class="panel status-card" aria-labelledby="statusTitle">
+          <h2 id="statusTitle">Estado de seguridad</h2>
+          <div id="statusBanner" class="status-banner" role="status">Conectando con el detector...</div>
+          <div class="checklist">
+            <div class="check-row" data-item="casco"><span class="item-name">Casco</span><span class="item-state">Esperando...</span></div>
+            <div class="check-row" data-item="chaleco"><span class="item-name">Chaleco reflectivo</span><span class="item-state">Esperando...</span></div>
+            <div class="check-row" data-item="senal"><span class="item-name">Señal de peligro</span><span class="item-state">Esperando...</span></div>
+          </div>
+          <p class="duration">Tiempo en este estado: <strong id="duration">--</strong></p>
+        </section>
+
+        <section class="panel report-card" aria-labelledby="reportTitle">
+          <h2 id="reportTitle">Reporte de seguridad</h2>
+          <p>Guarda un reporte de los elementos faltantes en el archivo de reportes del proyecto.</p>
+          <button id="reportButton" type="button" disabled>Generar reporte ahora</button>
+          <p id="reportMessage" class="message" aria-live="polite"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const labels = {
+      casco: "Casco",
+      chaleco: "Chaleco reflectivo",
+      senal: "Señal de peligro"
+    };
+
+    const video = document.getElementById("video");
+    const placeholder = document.getElementById("videoPlaceholder");
+    const reportButton = document.getElementById("reportButton");
+
+    video.addEventListener("error", () => {
+      video.hidden = true;
+      placeholder.hidden = false;
+      placeholder.textContent = "No se pudo cargar el video. Revisa la cámara y el servidor.";
+    });
+
+    async function refreshStatus() {
+      try {
+        const response = await fetch("/api/status", { cache: "no-store" });
+        if (!response.ok) throw new Error("No se pudo consultar el detector.");
+        const data = await response.json();
+
+        document.getElementById("connectionDot").classList.toggle("online", !data.error);
+        document.getElementById("connectionText").textContent = data.error
+          ? "Error en el detector"
+          : "Detector conectado";
+        document.getElementById("sourceText").textContent = `Fuente: ${data.fuente}`;
+        document.getElementById("duration").textContent = `${Number(data.segundos).toFixed(1)} s`;
+
+        const missing = new Set(data.faltantes);
+        const present = new Set(data.detectados);
+        document.querySelectorAll(".check-row").forEach((row) => {
+          const item = row.dataset.item;
+          const state = row.querySelector(".item-state");
+          row.classList.toggle("present", present.has(item));
+          row.classList.toggle("missing", missing.has(item));
+          state.textContent = present.has(item) ? "Detectado" : missing.has(item) ? "Falta" : "Estabilizando...";
+        });
+
+        const banner = document.getElementById("statusBanner");
+        banner.classList.toggle("alert", missing.size > 0);
+        banner.textContent = data.error
+          ? `Error: ${data.error}`
+          : missing.size
+            ? `Falta verificar: ${Array.from(missing, (item) => labels[item]).join(", ")}`
+            : "Todos los elementos requeridos están detectados.";
+        reportButton.disabled = missing.size === 0 || Boolean(data.error);
+      } catch (error) {
+        document.getElementById("connectionDot").classList.remove("online");
+        document.getElementById("connectionText").textContent = "Servidor desconectado";
+        document.getElementById("statusBanner").textContent = error.message;
+        reportButton.disabled = true;
+      }
+    }
+
+    reportButton.addEventListener("click", async () => {
+      reportButton.disabled = true;
+      const message = document.getElementById("reportMessage");
+      message.textContent = "Guardando reporte...";
+      try {
+        const response = await fetch("/api/report", { method: "POST" });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.mensaje);
+        message.textContent = result.mensaje;
+      } catch (error) {
+        message.textContent = error.message;
+      } finally {
+        refreshStatus();
+      }
+    });
+
+    refreshStatus();
+    window.setInterval(refreshStatus, 1000);
+  </script>
+</body>
+</html>

@@ -791,3 +791,379 @@ RECOMENDACIONES:
 - Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
 ============================================================
 
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-24 17:53:12
+Fuente (DroidCam)  : camara_0
+Tiempo sin cambio  : 5.2 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:03:01
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 4.5 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:03:02
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.4 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:03:42
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.4 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:16:51
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.9 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:17:30
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.6 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:18:32
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.5 s
+Detectados         : casco
+No detectados      : chaleco, senal
+
+RECOMENDACIONES:
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:18:48
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.1 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:19:03
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.1 s
+Detectados         : casco
+No detectados      : chaleco, senal
+
+RECOMENDACIONES:
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:19:14
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.2 s
+Detectados         : senal
+No detectados      : casco, chaleco
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:20:01
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.0 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:21:55
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 7.3 s
+Detectados         : chaleco
+No detectados      : casco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:22:06
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 6.1 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:24:31
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.4 s
+Detectados         : chaleco
+No detectados      : casco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:24:42
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.5 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:25:17
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.3 s
+Detectados         : chaleco
+No detectados      : casco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:25:24
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.3 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:27:52
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.1 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:28:03
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.1 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:28:26
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.2 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:28:39
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.0 s
+Detectados         : chaleco
+No detectados      : casco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:28:58
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.0 s
+Detectados         : chaleco
+No detectados      : casco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:29:07
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 7.6 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
+
+============================================================
+REPORTE DE SEGURIDAD VIAL - ELEMENTOS NO DETECTADOS
+============================================================
+Fecha/Hora         : 2026-11-25 12:30:44
+Fuente (DroidCam)  : http://192.168.100.199:4747/video
+Tiempo sin cambio  : 5.2 s
+Detectados         : Ninguno
+No detectados      : casco, chaleco, senal
+
+RECOMENDACIONES:
+- Casco: Verificar el uso obligatorio del casco de seguridad y su correcta colocación.
+- Chaleco: Asegurar que el personal porte chaleco reflectivo visible.
+- Señal de peligro: Colocar o verificar la visibilidad de la señal de peligro en la zona.
+============================================================
+
